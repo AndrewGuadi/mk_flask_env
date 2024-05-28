@@ -1,6 +1,5 @@
-Sure, here is a `README.md` file for your GitHub repository:
 
-```markdown
+
 # Flask Environment Setup Script
 
 This repository contains a Python script that sets up a Flask environment with a predefined directory structure and essential files. The script automates the creation of directories, necessary files, and a virtual environment named `myEnv`.
@@ -9,7 +8,7 @@ This repository contains a Python script that sets up a Flask environment with a
 
 The script creates the following directory structure:
 
-```
+
 project_root/
 │
 ├── app.py
@@ -24,7 +23,6 @@ project_root/
     │   ├── index.css
     │   └── base.css
     └── img/
-```
 
 ## File Contents
 
@@ -40,7 +38,6 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
-```
 
 ### `templates/index.html`
 ```html
